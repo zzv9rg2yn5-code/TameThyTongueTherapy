@@ -12,19 +12,10 @@
     }
     html, body {
       width: 100%;
-      overflow-x: hidden;
-      overflow-y: auto;
-    }
-    .canva-container {
-      position: relative;
-      width: 100%;
-      height: 0;
-      padding-top: 168.6676%;
+      height: 100%;
     }
     iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
+      display: block;
       width: 100%;
       height: 100%;
       border: none;
@@ -32,13 +23,11 @@
   </style>
 </head>
 <body>
-  <div class="canva-container">
-    <iframe
-      src="https://canva.com"
-      allowfullscreen="allowfullscreen"
-      allow="fullscreen">
-    </iframe>
-  </div>
+  <iframe
+    src="https://canva.com"
+    allowfullscreen="allowfullscreen"
+    allow="fullscreen">
+  </iframe>
 </body>
 </html>
 
